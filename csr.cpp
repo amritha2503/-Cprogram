@@ -28,6 +28,7 @@ int main()
 {
  int plno;
   int i,n,m;
+	printf("\t\t\tCRICKET MATCH DETAILS\n");
  batsman();
 bowler();
 
