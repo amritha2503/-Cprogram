@@ -35,7 +35,7 @@ bowler();
    do
     {
        int ch;  
-       printf("Enter your chocie:\n 1)Batsman's detail:\n 2)Bowler's detail:\n 3)Match summary:\n 4)Record:\n 5)Exit\n ");
+       printf("\nEnter your chocie:\n 1)Batsman's detail:\n 2)Bowler's detail:\n 3)Match summary:\n 4)Record:\n 5)Exit\n ");
        scanf("%d",&ch);
       switch(ch)
       {
@@ -147,7 +147,7 @@ void bowlerdetails()
 }
 void matchdetails()
 {
-	printf(" \t\t\t\tMatch summary\n\n");
+	printf(" \t\t\t\tMatch Summary\n\n");
               printf("==========================================================================\n");
               printf(" Batsman        runs           balls        fours       sixes         sr   \n");
               printf("==========================================================================\n");
